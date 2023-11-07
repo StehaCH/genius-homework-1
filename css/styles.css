@@ -1,0 +1,202 @@
+/* play-regular - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/play-v19-cyrillic_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* play-700 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/play-v19-cyrillic_latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-regular - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v30-cyrillic_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-700 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/roboto-v30-cyrillic_latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/*--------------------------------------------------------------------------------------------*/
+
+:root {
+  --color-primary-dark: #011c44;
+  --color-primary-light: #2b7fff;
+  --color-primary-white: #ffffff;
+
+  --color-secondary-darkgrey: #4a4a4a;
+  --color-secondary-lightgrey: #747272;
+  --color-secondary-darkblue: #011f4a;
+  --color-secondary-yellow: #ffd02b;
+}
+
+body {
+  color: var(--color-primary-dark);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.7;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/*-------------Title of sectoins-----------------*/
+.title-section {
+  font-family: 'Play', sans-serif;
+  color: var(--color-primary-dark);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.16;
+}
+
+.title-section span {
+  color: var(--color-primary-light);
+}
+
+/*-------------Buttons-----------------*/
+.button {
+  background-color: var(--color-primary-light);
+  color: var(--color-primary-white);
+  border: 2px solid var(--color-primary-light);
+  border-radius: 32px;
+  font-size: 18px;
+  line-height: 1.17;
+  font-weight: 700;
+}
+
+.button:hover {
+  background-color: transparent;
+  color: var(--color-primary-dark);
+}
+
+/*-------------Header-----------------*/
+.menu__list {
+}
+
+.menu__item {
+}
+
+.menu__link {
+  color: var(--color-primary-dark);
+  font-size: 18px;
+  line-height: 1.17;
+}
+.menu__link:hover {
+  color: var(--color-primary-light);
+  font-weight: 700;
+}
+
+/*------------------------------HERO section--------------------------------*/
+.hero {
+}
+
+.hero-title__text {
+  font-size: 18px;
+  line-height: 1.17;
+}
+
+.hero__title {
+  font-family: 'Play', sans-serif;
+  color: var(--color-primary-light);
+  font-size: 140px;
+  font-weight: 700;
+  line-height: 114px;
+}
+
+.hero__text {
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/*------------------------------About section--------------------------------*/
+
+.about {
+}
+
+.about__text span {
+  font-weight: 700;
+}
+
+/*------------------------------Why section--------------------------------*/
+.why {
+}
+
+.why__text {
+  font-size: 18px;
+  line-height: 1.3;
+  text-align: center;
+}
+
+/*------------------------------Procedures section--------------------------------*/
+.procedures {
+}
+
+.procedures__title {
+  line-height: 1.18;
+  text-align: center;
+}
+
+/*------------------------------Contacts section--------------------------------*/
+.contacts {
+}
+
+.contacts__card {
+  background-color: var(--color-primary-dark);
+}
+.contacts__title {
+  line-height: 1.17;
+  font-weight: 700;
+  text-align: center;
+  color: var(--color-primary-white);
+}
+
+.contacts__title span {
+  color: var(--color-primary-light);
+}
+
+.contacts__text {
+  color: var(--color-secondary-lightgrey);
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.contacts__text a {
+  text-decoration: underline;
+}
+
+/*------------------------------FOOTER--------------------------------*/
+.footer {
+  font-size: 16px;
+  line-height: 1.17;
+  color: var(--color-primary-white);
+  background-color: var(--color-primary-dark);
+}
+
+.footer__accent {
+  font-size: 13px;
+  color: var(--color-secondary-lightgrey);
+}
